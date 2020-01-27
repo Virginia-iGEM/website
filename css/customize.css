@@ -1,0 +1,221 @@
+ .body{
+   width: 70%;
+   margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans';
+}
+p, div {
+    font-family: 'Open Sans';
+}
+
+p {
+  line-height: 160%;
+}
+
+
+#keywords {
+    font-size: 1px;
+    color:rgba(3,3,3,0);
+    margin:0px;
+
+}
+
+img{
+  max-width:100%;
+}
+.members{
+  width:100%;
+}
+
+}
+
+
+.col-lg-4{
+  text-align:center;
+  max-width:100%;
+  background-color:white;
+}
+
+
+.foothighlight{
+  height:10px;
+  background-color: #84d7ff;
+  width:100%;
+  margin-top: 50px;
+}
+
+.footer p{
+    line-height:50px;
+    padding:0px;
+}
+
+.footer2 {
+  background-color:#1A1A1A;
+}
+
+
+.hidden_div{
+  height:0px;
+}
+
+.graydiv{
+  line-height:11px;
+  height:46px;
+  padding-top: 6px;
+  background-color:#1A1A1A;
+  text-align: center;
+}
+
+.graydivright{
+    line-height:11px;
+    height:46px;
+    padding-top: 6px;
+    background-color:#1A1A1A;
+    text-align: right;
+}
+
+.footer {
+    height:5%;
+    background-color:#1A1A1A;
+    color:#8A8A8A;
+    width:100%;
+}
+
+.soc_media_tag, .uva_tag{
+  background-color:#1A1A1A;
+}
+
+#circlepiccontainer{
+  text-align: center;
+  margin-top:7%;
+
+}
+
+#circlepic{
+  border-radius: 50%;
+  max-width:100px;
+}
+
+#circpic{
+  width: 97%;
+  border-radius:50%;
+    margin: 0 auto;
+}
+
+.row{
+  margin-top:26px;
+}
+
+.rowindexpage{
+  max-width:100%;
+  margin:0 auto;
+}
+
+
+.jumbotron {
+  height: 500px;
+  color: #fbf6eb;
+  text-shadow: #0c0c0c 1px 2px 2px;
+  background:url("../images/agarplates.jpg");
+  background-position:-450px -300px;
+  margin-bottom:40px;
+  
+  padding: 6%;
+}
+
+.bigtitle {
+    position: relative;
+    font-size: 50px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+.bigtitle:before, .bigtitle:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 1px;
+    content: '\a0';
+    background-color: black;
+}
+.bigtitle:before {
+    margin-left: -50%;
+    text-align: right;
+}
+.color {
+    background-color: white;
+}
+
+.fa{
+  margin-left:10px;
+  color:inherit;
+  padding-top:2px;
+}
+
+.footer a{
+  color: #5c96b2;
+}
+
+.footer a:hover{
+  color: #69accc;
+}
+
+#photo_credit a{
+  color: #375a6a;
+}
+
+#tronwords{
+  background-color:rgba(255,255,255,0);
+  width:650px;
+  padding:5px;
+  max-width:100%;
+}
+
+.footer p{
+  font-size: 12.5px;
+}
+
+#pears h4{
+  margin-left:14px;
+  margin-top:25px;
+}
+
+#pears i{
+  margin-left:14px;
+}
+
+#pears{
+  width:26em;
+  max-width: 100%;
+}
+
+#outsidepears{
+  width:30em;
+  max-width: 100%;
+  margin:0 auto;
+}
+
+#pears .row{
+  margin-top:15px;
+}
+
+#goat{
+  font-size: 11px;
+}
+
+#goat {
+        font-size:14px;
+}
+
+@media only screen and (max-width: 480px) {
+    #goat {
+        font-size: 10px;
+    }
+
+
+#donationspage{
+  background-color:blue;
+}
